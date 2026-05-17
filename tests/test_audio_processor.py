@@ -1,0 +1,151 @@
+import numpy as np
+import pytest
+
+from pywebrtc_audio import AudioProcessor
+
+
+def test_create_default():
+    assert AudioProcessor() is not None
+
+
+def test_create_all_features():
+    ap = AudioProcessor(echo_cancellation=True, noise_suppression=True, high_pass_filter=True)
+    assert ap is not None
+
+
+def test_invalid_sample_rate():
+    with pytest.raises(ValueError):
+        AudioProcessor(sample_rate=8000)
+
+
+def test_invalid_ns_level():
+    with pytest.raises(ValueError):
+        AudioProcessor(ns_level=5)
+
+
+def test_ns_only():
+    ap = AudioProcessor(noise_suppression=True, ns_level=2)
+    rng = np.random.default_rng(42)
+
+    for _ in range(200):
+        noise = (rng.standard_normal(160) * 1000).astype(np.int16)
+        result = ap.process(noise)
+
+    assert np.sum(result.astype(float) ** 2) < np.sum(noise.astype(float) ** 2)
+
+
+def test_aec_plus_ns():
+    ap = AudioProcessor(echo_cancellation=True, noise_suppression=True)
+    rng = np.random.default_rng(42)
+
+    for _ in range(200):
+        far = (rng.standard_normal(160) * 5000).astype(np.int16)
+        near = (far * 0.3 + rng.standard_normal(160) * 500).astype(np.int16)
+        result = ap.process(near, far)
+
+    input_energy = np.sum(near.astype(float) ** 2)
+    output_energy = np.sum(result.astype(float) ** 2)
+    assert output_energy < input_energy * 0.01
+
+
+def test_hpf_only():
+    ap = AudioProcessor(high_pass_filter=True)
+    result = ap.process(np.zeros(160, dtype=np.int16))
+    assert result.shape == (160,)
+    assert result.dtype == np.int16
+
+
+def test_aec_requires_far():
+    ap = AudioProcessor(echo_cancellation=True)
+    with pytest.raises(ValueError, match="far is required"):
+        ap.process(np.zeros(160, dtype=np.int16))
+
+
+def test_arbitrary_length():
+    ap = AudioProcessor(noise_suppression=True)
+    result = ap.process(np.zeros(100, dtype=np.int16))
+    assert result.shape == (100,)
+    assert result.dtype == np.int16
+
+
+def test_wrong_far_frame_size():
+    ap = AudioProcessor(echo_cancellation=True)
+    with pytest.raises(ValueError):
+        ap.process(np.zeros(160, dtype=np.int16), np.zeros(100, dtype=np.int16))
+
+
+@pytest.mark.parametrize("rate,frame_size", [(16000, 160), (32000, 320), (48000, 480)])
+def test_all_sample_rates(rate, frame_size):
+    ap = AudioProcessor(sample_rate=rate, echo_cancellation=True, noise_suppression=True)
+    near = np.zeros(frame_size, dtype=np.int16)
+    far = np.zeros(frame_size, dtype=np.int16)
+    result = ap.process(near, far)
+    assert result.shape == (frame_size,)
+    assert result.dtype == np.int16
+
+
+def test_no_features_passthrough():
+    ap = AudioProcessor()
+    frame = (np.ones(160) * 1000).astype(np.int16)
+    result = ap.process(frame)
+    assert result.shape == (160,)
+    assert result.dtype == np.int16
+
+
+def test_reset_clears_state():
+    """After reset, output should match a freshly constructed instance."""
+    rng = np.random.default_rng(42)
+    far = (rng.standard_normal(160) * 3000).astype(np.int16)
+    near = (far * 0.5 + rng.standard_normal(160) * 200).astype(np.int16)
+
+    ap = AudioProcessor(echo_cancellation=True, noise_suppression=True, ns_level=2)
+    for _ in range(200):
+        ap.process(near, far)
+    ap.reset()
+
+    fresh = AudioProcessor(echo_cancellation=True, noise_suppression=True, ns_level=2)
+    assert np.array_equal(ap.process(near, far), fresh.process(near, far))
+
+
+def test_stream_delay_ms_default():
+    ap = AudioProcessor(echo_cancellation=True)
+    assert ap.stream_delay_ms == 0
+
+
+def test_stream_delay_ms_set():
+    ap = AudioProcessor(echo_cancellation=True)
+    ap.stream_delay_ms = 75
+    assert ap.stream_delay_ms == 75
+
+
+def test_stream_delay_ms_negative_raises():
+    ap = AudioProcessor(echo_cancellation=True)
+    with pytest.raises(ValueError):
+        ap.stream_delay_ms = -1
+
+
+def test_speech_probability_with_ns():
+    ap = AudioProcessor(noise_suppression=True)
+    rng = np.random.default_rng(42)
+    for _ in range(10):
+        ap.process((rng.standard_normal(160) * 1000).astype(np.int16))
+    prob = ap.speech_probability
+    assert isinstance(prob, float)
+    assert 0.0 <= prob <= 1.0
+
+
+def test_speech_probability_with_agc_only():
+    ap = AudioProcessor(auto_gain_control=True)
+    rng = np.random.default_rng(42)
+    ap.process((rng.standard_normal(16000) * 100).astype(np.int16))
+    prob = ap.speech_probability
+    assert isinstance(prob, float)
+    assert 0.0 <= prob <= 1.0
+
+
+def test_speech_probability_without_ns_or_agc():
+    ap = AudioProcessor(high_pass_filter=True)
+    ap.process(np.zeros(160, dtype=np.int16))
+    prob = ap.speech_probability
+    assert isinstance(prob, float)
+    assert 0.0 <= prob <= 1.0

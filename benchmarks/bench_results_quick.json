@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "python": "3.12.12",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "processor": "Apple M3 Pro",
+    "numpy": "2.2.6",
+    "mode": "quick"
+  },
+  "results": [
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 3.5801645927452386,
+      "realtime_factor": 2793.1676717499986
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 58.28506086724694,
+      "realtime_factor": 171.57055086167819
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 10.312384765454041,
+      "realtime_factor": 969.7078054631443
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 2.0068951825519266,
+      "realtime_factor": 4982.821268863781
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 3.5183283052381276,
+      "realtime_factor": 2842.258917427315
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 59.87559765641137,
+      "realtime_factor": 167.01294669965134
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 62.10498556447064,
+      "realtime_factor": 161.01766885718197
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 31.336821212812893,
+      "realtime_factor": 3191.1341396399307
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 586.1903276418445,
+      "realtime_factor": 170.59305704050928
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 97.9610405278386,
+      "realtime_factor": 1020.8139834078423
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 18.67952251444205,
+      "realtime_factor": 5353.455899243952
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 31.3567104488488,
+      "realtime_factor": 3189.1100363709006
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 601.2037053224617,
+      "realtime_factor": 166.33297352411358
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 621.5127160658085,
+      "realtime_factor": 160.89775384324005
+    }
+  ]
+}

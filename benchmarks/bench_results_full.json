@@ -1,0 +1,3845 @@
+{
+  "meta": {
+    "python": "3.12.12",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "processor": "Apple M3 Pro",
+    "numpy": "2.2.6",
+    "mode": "full"
+  },
+  "results": [
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 3.673401193601822,
+      "realtime_factor": 2722.272758395567
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 60.27241258288463,
+      "realtime_factor": 165.91338510381232
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 10.45610077671233,
+      "realtime_factor": 956.3794586096425
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 2.093506057732064,
+      "realtime_factor": 4776.6759322555745
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 3.613064723975712,
+      "realtime_factor": 2767.733424104368
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 59.84587414498144,
+      "realtime_factor": 167.09589663230915
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 10.582104839340634,
+      "realtime_factor": 944.991582659759
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 62.74827450480913,
+      "realtime_factor": 159.3669320617507
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 62.2513847341466,
+      "realtime_factor": 160.63899691077435
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 63.885688720510814,
+      "realtime_factor": 156.52957963321526
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 6.889948286070702,
+      "realtime_factor": 2902.7794069853444
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 122.12068658445929,
+      "realtime_factor": 163.77241693746865
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 21.321782104122278,
+      "realtime_factor": 938.0078973855226
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 3.9102582150285503,
+      "realtime_factor": 5114.7517376557635
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 7.1476020852556665,
+      "realtime_factor": 2798.1412173541007
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 124.67815899697143,
+      "realtime_factor": 160.41301989778196
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 20.920820258840678,
+      "realtime_factor": 955.9854610169236
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 125.828104553527,
+      "realtime_factor": 158.9470021102642
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 130.28529620129348,
+      "realtime_factor": 153.50926453818386
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 126.59574877815771,
+      "realtime_factor": 157.9831881641409
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 32.37573495473711,
+      "realtime_factor": 3088.732970535031
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 621.7111198729697,
+      "realtime_factor": 160.84640728387225
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 103.14092385677043,
+      "realtime_factor": 969.5472588442958
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 21.43621222694403,
+      "realtime_factor": 4665.003263697214
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 35.418357833716385,
+      "realtime_factor": 2823.394592981534
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 655.3324482325706,
+      "realtime_factor": 152.59430579044218
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 99.84933981188604,
+      "realtime_factor": 1001.508875155287
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 649.3677168037948,
+      "realtime_factor": 153.99595238919895
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 648.5865068412977,
+      "realtime_factor": 154.18143754950017
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 686.2059121033326,
+      "realtime_factor": 145.72885228208506
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 176.382036864986,
+      "realtime_factor": 2834.7557885542037
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3263.4135732223513,
+      "realtime_factor": 153.21380167769888
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 555.3880415085644,
+      "realtime_factor": 900.2714546065532
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 107.4699236136567,
+      "realtime_factor": 4652.4644587768435
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 178.76797998006566,
+      "realtime_factor": 2796.921462421597
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3333.413248043371,
+      "realtime_factor": 149.99640392426213
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 570.5287473176668,
+      "realtime_factor": 876.3800287903865
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3372.510538085294,
+      "realtime_factor": 148.2575056040802
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3411.277384785194,
+      "realtime_factor": 146.5726599162163
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3393.0028466357953,
+      "realtime_factor": 147.36209269489893
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 350.5020394296565,
+      "realtime_factor": 2853.050446231978
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6452.730876958412,
+      "realtime_factor": 154.97314533460977
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 1105.369485841834,
+      "realtime_factor": 904.6748737038041
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 209.39541125564176,
+      "realtime_factor": 4775.653840757492
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 350.5785217274848,
+      "realtime_factor": 2852.428024034313
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6731.930746042281,
+      "realtime_factor": 148.54579432325602
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 1114.8706874948289,
+      "realtime_factor": 896.9650123702246
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6947.513429679475,
+      "realtime_factor": 143.93638963374198
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6934.538658242673,
+      "realtime_factor": 144.20569979970617
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6995.230636704264,
+      "realtime_factor": 142.95454316444676
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 1809.7359008777403,
+      "realtime_factor": 2762.8340674321316
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 32480.2142029057,
+      "realtime_factor": 153.9398714788247
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 5742.048177722836,
+      "realtime_factor": 870.769426734919
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 1053.6644702199283,
+      "realtime_factor": 4745.34364716347
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 1760.0386963039227,
+      "realtime_factor": 2840.84663053147
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 33688.18228136661,
+      "realtime_factor": 148.41999957847437
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 5642.662601587745,
+      "realtime_factor": 886.1064984805381
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 34242.92640625026,
+      "realtime_factor": 146.01555780254122
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 34897.21157779968,
+      "realtime_factor": 143.2779231903106
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 34488.42187503942,
+      "realtime_factor": 144.9761899258919
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 3514.7766933931734,
+      "realtime_factor": 2845.1309634541753
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 64421.7824997213,
+      "realtime_factor": 155.226999501966
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 11425.5196913291,
+      "realtime_factor": 875.2337110397756
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 2150.995238267228,
+      "realtime_factor": 4649.010756553638
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 3583.1414384688287,
+      "realtime_factor": 2790.847130018196
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 68457.1262809186,
+      "realtime_factor": 146.0768300288315
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 11445.74137509835,
+      "realtime_factor": 873.6873979833458
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 68276.38803224545,
+      "realtime_factor": 146.46351818255556
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 68797.43878153022,
+      "realtime_factor": 145.3542483137419
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 68970.47137499612,
+      "realtime_factor": 144.98958468225436
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 3.9899566154910637,
+      "realtime_factor": 2506.292915861505
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 66.29851275619103,
+      "realtime_factor": 150.83294608394044
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 11.806585952678361,
+      "realtime_factor": 846.9848980967668
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 2.3437967300310447,
+      "realtime_factor": 4266.581598937356
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 3.999488750433544,
+      "realtime_factor": 2500.319571824274
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 68.5957883299615,
+      "realtime_factor": 145.78154495284323
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 11.610094856284725,
+      "realtime_factor": 861.3194055504933
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 70.2805455623512,
+      "realtime_factor": 142.28688636357046
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 68.03135806254801,
+      "realtime_factor": 146.99103890893966
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 160,
+      "time_per_call_us": 67.48842874237937,
+      "realtime_factor": 148.17354895270364
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 6.982350908346646,
+      "realtime_factor": 2864.3647766387908
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 129.06538897805575,
+      "realtime_factor": 154.96021170633503
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 22.774743400511,
+      "realtime_factor": 878.1657667129307
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 4.219481307993211,
+      "realtime_factor": 4739.919089607726
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 7.409788536111295,
+      "realtime_factor": 2699.1323574931776
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 135.82186370886262,
+      "realtime_factor": 147.25169758287572
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 23.33153213507355,
+      "realtime_factor": 857.2090287176055
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 143.85759753388072,
+      "realtime_factor": 139.02637290525922
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 136.24382531940427,
+      "realtime_factor": 146.79564342173194
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 320,
+      "time_per_call_us": 134.1520334463553,
+      "realtime_factor": 149.08458326125634
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 34.2038313292381,
+      "realtime_factor": 2923.649080052563
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 622.9268798776388,
+      "realtime_factor": 160.53248499991355
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 104.00220614581457,
+      "realtime_factor": 961.5180649129371
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 20.41101234417919,
+      "realtime_factor": 4899.316031647886
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 34.163674026643776,
+      "realtime_factor": 2927.08565015611
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 643.2643022478146,
+      "realtime_factor": 155.457095396964
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 106.00674688765466,
+      "realtime_factor": 943.3361831769013
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 664.4683735324008,
+      "realtime_factor": 150.4962523173028
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 666.3816018104285,
+      "realtime_factor": 150.0641670303015
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 1600,
+      "time_per_call_us": 666.1702578085738,
+      "realtime_factor": 150.11177522238668
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 168.24505359114283,
+      "realtime_factor": 2971.855572141006
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3160.6892080020543,
+      "realtime_factor": 158.19334553176827
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 525.0295307597241,
+      "realtime_factor": 952.3273848548936
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 99.02148809937117,
+      "realtime_factor": 5049.409068648154
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 172.28227728249834,
+      "realtime_factor": 2902.2137847651584
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3140.4797773291193,
+      "realtime_factor": 159.2113420406211
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 512.9064428786023,
+      "realtime_factor": 974.8366528480964
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3215.840047843699,
+      "realtime_factor": 155.4803698446577
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3265.845257772071,
+      "realtime_factor": 153.09972167545234
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 8000,
+      "time_per_call_us": 3276.7839755791783,
+      "realtime_factor": 152.58863682389193
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 338.43060827010163,
+      "realtime_factor": 2954.815479343108
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 5823.552248045871,
+      "realtime_factor": 171.71649835125223
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 1039.8777270523851,
+      "realtime_factor": 961.6515230445202
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 202.7112501252759,
+      "realtime_factor": 4933.125316833665
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 333.8822377916273,
+      "realtime_factor": 2995.06798149619
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6218.162843737218,
+      "realtime_factor": 160.81920418137256
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 1006.3519082024186,
+      "realtime_factor": 993.688183874203
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6063.981933635887,
+      "realtime_factor": 164.90814302284912
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6129.965984371211,
+      "realtime_factor": 163.13304226313358
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 16000,
+      "time_per_call_us": 6204.528158178846,
+      "realtime_factor": 161.1726104718848
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 1670.1865849597652,
+      "realtime_factor": 2993.677499882715
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 29859.491851425446,
+      "realtime_factor": 167.45094072193018
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 5238.235273424152,
+      "realtime_factor": 954.5199363929254
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 1034.16021679692,
+      "realtime_factor": 4834.840790420639
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 1691.2870268583902,
+      "realtime_factor": 2956.3284768331905
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 31549.739585784664,
+      "realtime_factor": 158.47991348406708
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 5292.06998828613,
+      "realtime_factor": 944.8098779999849
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 32081.767562431196,
+      "realtime_factor": 155.8517619164838
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 32583.521484411904,
+      "realtime_factor": 153.45179932107771
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 80000,
+      "time_per_call_us": 33573.23896898379,
+      "realtime_factor": 148.92813900437747
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 3430.7797822350494,
+      "realtime_factor": 2914.789241728976
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 62715.266969007644,
+      "realtime_factor": 159.45080812526487
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 10366.210453184976,
+      "realtime_factor": 964.6726781364487
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 1987.1465654119902,
+      "realtime_factor": 5032.341435734372
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 3349.1874990261294,
+      "realtime_factor": 2985.798795351942
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 63168.85025034935,
+      "realtime_factor": 158.3058732329024
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 10272.556804636679,
+      "realtime_factor": 973.467481385583
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 62725.613312295536,
+      "realtime_factor": 159.42450734140195
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 66161.41668746423,
+      "realtime_factor": 151.1454938644735
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 160000,
+      "time_per_call_us": 64753.703093629156,
+      "realtime_factor": 154.43132241473086
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 9.932075973606569,
+      "realtime_factor": 1006.8388548953847
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 75.86671569770331,
+      "realtime_factor": 131.81010813550648
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 11.331996753793927,
+      "realtime_factor": 882.4570124106348
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 5.0874315072058085,
+      "realtime_factor": 1965.6284287731555
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 9.747851684560604,
+      "realtime_factor": 1025.8670652364117
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 77.99327984603366,
+      "realtime_factor": 128.21617477481362
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 17.34810446929469,
+      "realtime_factor": 576.4318526960407
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 75.31218844469834,
+      "realtime_factor": 132.78063227897022
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 78.06784957908874,
+      "realtime_factor": 128.09370379632693
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 80.25490319774065,
+      "realtime_factor": 124.60297877826763
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 19.04071583513911,
+      "realtime_factor": 1050.3806775526032
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 153.26774347101946,
+      "realtime_factor": 130.49060126458826
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 23.111610420456508,
+      "realtime_factor": 865.3659193864585
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 9.74535797870768,
+      "realtime_factor": 2052.259141603352
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 18.61131063851662,
+      "realtime_factor": 1074.6153448542977
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 143.30188000588606,
+      "realtime_factor": 139.5655102304206
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 33.187891662178615,
+      "realtime_factor": 602.629422910654
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 146.80521142818037,
+      "realtime_factor": 136.23494564962596
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 156.3628311158638,
+      "realtime_factor": 127.9076354480953
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 148.64262921143734,
+      "realtime_factor": 134.55090310297805
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 89.06668981945032,
+      "realtime_factor": 1122.7541991592245
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 729.9759628907054,
+      "realtime_factor": 136.99081214126548
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 108.66997659197963,
+      "realtime_factor": 920.217369471491
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 48.3982480619094,
+      "realtime_factor": 2066.190492517072
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 92.75461959923348,
+      "realtime_factor": 1078.1134183081315
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 713.5131730926503,
+      "realtime_factor": 140.15158201853538
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 156.4127756950029,
+      "realtime_factor": 639.3339646052635
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 718.8260700630167,
+      "realtime_factor": 139.115711247414
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 729.3235576142365,
+      "realtime_factor": 137.11335518507045
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 750.7178955137306,
+      "realtime_factor": 133.20582951012258
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 458.4099582469747,
+      "realtime_factor": 1090.7267414348316
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3576.9883212850573,
+      "realtime_factor": 139.78239655542728
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 536.7501933655205,
+      "realtime_factor": 931.5320351631544
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 249.70369482701926,
+      "realtime_factor": 2002.3732542138473
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 441.0019786416086,
+      "realtime_factor": 1133.7817611161731
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3547.6365957123335,
+      "realtime_factor": 140.93890016928424
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 798.6709594689501,
+      "realtime_factor": 626.0400407352466
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3597.915933596596,
+      "realtime_factor": 138.9693392586256
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3655.8433418036884,
+      "realtime_factor": 136.7673483933571
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3942.2889023228436,
+      "realtime_factor": 126.82987279430334
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 892.7304174868311,
+      "realtime_factor": 1120.1589868699093
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 6910.551759773398,
+      "realtime_factor": 144.70624557376743
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 1053.7516279356396,
+      "realtime_factor": 948.990230230114
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 463.98053979146425,
+      "realtime_factor": 2155.2628057406228
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 905.6829326183902,
+      "realtime_factor": 1104.139168338894
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7200.873211019143,
+      "realtime_factor": 138.87204658314897
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 1611.3018789027933,
+      "realtime_factor": 620.6161695044657
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7056.7089804569605,
+      "realtime_factor": 141.7091172059705
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7238.670900363786,
+      "realtime_factor": 138.14690759732483
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7178.222251923216,
+      "realtime_factor": 139.31025885024334
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 4603.282308607959,
+      "realtime_factor": 1086.1814819938795
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 37406.90820291093,
+      "realtime_factor": 133.6651501075117
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 5448.624999985441,
+      "realtime_factor": 917.6627130722633
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 2308.438110389943,
+      "realtime_factor": 2165.966667027255
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 4401.469320299611,
+      "realtime_factor": 1135.9842898233915
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 35980.29360887267,
+      "realtime_factor": 138.96495827279767
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 8230.000976539031,
+      "realtime_factor": 607.5333422503012
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 37186.791671729225,
+      "realtime_factor": 134.45634256749244
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 37685.70768738755,
+      "realtime_factor": 132.67629313150388
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 40305.290374590186,
+      "realtime_factor": 124.05319384951432
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 9179.230472568634,
+      "realtime_factor": 1089.4159406808847
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 71622.4569687256,
+      "realtime_factor": 139.62101306251702
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 11094.553222676495,
+      "realtime_factor": 901.3431905992118
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 4768.043371171871,
+      "realtime_factor": 2097.2963585988186
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 8908.902828181908,
+      "realtime_factor": 1122.4726762499392
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 75392.22656305355,
+      "realtime_factor": 132.63966931175057
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 16951.153312561473,
+      "realtime_factor": 589.9303614102531
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 76812.63671929628,
+      "realtime_factor": 130.1869122986098
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 77005.03384330659,
+      "realtime_factor": 129.86164021885196
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 76206.99740618875,
+      "realtime_factor": 131.2215457945323
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 9.564496990188687,
+      "realtime_factor": 1045.5332894409455
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 73.86738964942907,
+      "realtime_factor": 135.3777363388567
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 11.78100458149034,
+      "realtime_factor": 848.8240481385981
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 4.978409372219383,
+      "realtime_factor": 2008.6737052605988
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 9.838922187699328,
+      "realtime_factor": 1016.3714896030027
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 73.92090615754299,
+      "realtime_factor": 135.27972693797378
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 17.27119700611901,
+      "realtime_factor": 578.9986644502463
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 74.72492858973112,
+      "realtime_factor": 133.82414929967862
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 77.20057296722871,
+      "realtime_factor": 129.5327173833924
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 320,
+      "time_per_call_us": 77.20248031573007,
+      "realtime_factor": 129.52951717488398
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 18.77488932022775,
+      "realtime_factor": 1065.2526179449876
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 146.54456335616572,
+      "realtime_factor": 136.4772567603991
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 23.105790466604326,
+      "realtime_factor": 865.5838902766282
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 9.79758485025739,
+      "realtime_factor": 2041.3193971445507
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 18.313402809111423,
+      "realtime_factor": 1092.0963301287431
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 145.5656966529162,
+      "realtime_factor": 137.39500761424296
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 33.48499999988874,
+      "realtime_factor": 597.2823652401509
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 151.51677960112409,
+      "realtime_factor": 131.99858162674164
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 154.22561389222267,
+      "realtime_factor": 129.68014517988289
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 640,
+      "time_per_call_us": 147.74809008510914,
+      "realtime_factor": 135.3655400112391
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 87.44174578856345,
+      "realtime_factor": 1143.618521087202
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 725.1023151830793,
+      "realtime_factor": 137.9115717962523
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 107.71073410031917,
+      "realtime_factor": 928.4125749886954
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 46.52202226274049,
+      "realtime_factor": 2149.519628257649
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 90.29337436006202,
+      "realtime_factor": 1107.5009734516175
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 710.118835453244,
+      "realtime_factor": 140.82150058190402
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 169.67992914018737,
+      "realtime_factor": 589.344894866035
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 757.5180964352057,
+      "realtime_factor": 132.01004764188298
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 736.8525896076505,
+      "realtime_factor": 135.7123546966791
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 3200,
+      "time_per_call_us": 737.9645280813918,
+      "realtime_factor": 135.5078681897984
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 454.66371654967475,
+      "realtime_factor": 1099.7138803913595
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3634.463011721323,
+      "realtime_factor": 137.57190495197648
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 558.5794675297961,
+      "realtime_factor": 895.1277822852102
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 239.78609222385927,
+      "realtime_factor": 2085.191828111576
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 450.9325307644474,
+      "realtime_factor": 1108.813327688669
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3587.190346706848,
+      "realtime_factor": 139.38485323451417
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 844.8573508346158,
+      "realtime_factor": 591.8158840732831
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3592.0816660279797,
+      "realtime_factor": 139.195053589326
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3599.8406562214313,
+      "realtime_factor": 138.8950366833249
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 16000,
+      "time_per_call_us": 3680.0253095918833,
+      "realtime_factor": 135.86863076641455
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 927.6072185073758,
+      "realtime_factor": 1078.0424947631523
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7192.758300760715,
+      "realtime_factor": 139.02872280502442
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 1080.6201992252795,
+      "realtime_factor": 925.394510223779
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 487.1062519544722,
+      "realtime_factor": 2052.940187048689
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 918.7704777744443,
+      "realtime_factor": 1088.4111148437416
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7023.777343817983,
+      "realtime_factor": 142.37353364855105
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 1611.3650922946476,
+      "realtime_factor": 620.5918229095806
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7342.304523490384,
+      "realtime_factor": 136.197020540442
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7284.374105466895,
+      "realtime_factor": 137.28015413836363
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 7555.041181632305,
+      "realtime_factor": 132.36195223279313
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 4682.287111364758,
+      "realtime_factor": 1067.8542090817318
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 35731.52931267032,
+      "realtime_factor": 139.93243771480587
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 5559.407224609458,
+      "realtime_factor": 899.3764619124918
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 2533.1890439872495,
+      "realtime_factor": 1973.7966307204535
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 4627.71573631926,
+      "realtime_factor": 1080.4466576801547
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 36273.19531233297,
+      "realtime_factor": 137.84283289484532
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 8460.416179673302,
+      "realtime_factor": 590.9874755349298
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 37606.84437520467,
+      "realtime_factor": 132.9545215257851
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 36629.32095335236,
+      "realtime_factor": 136.5026669854876
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 160000,
+      "time_per_call_us": 37707.491546370875,
+      "realtime_factor": 132.5996451885758
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 9299.319164256303,
+      "realtime_factor": 1075.347541402482
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 73654.1536571167,
+      "realtime_factor": 135.76966815141415
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 11086.629230362632,
+      "realtime_factor": 901.9874113416987
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 4967.554767574711,
+      "realtime_factor": 2013.0628584659287
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 9901.138343707316,
+      "realtime_factor": 1009.9848777848373
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 76621.17706286153,
+      "realtime_factor": 130.5122210768937
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 17319.35156237796,
+      "realtime_factor": 577.3888222075557
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 74890.30331271351,
+      "realtime_factor": 133.5286353193656
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 76320.01559341006,
+      "realtime_factor": 131.027226897782
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 320000,
+      "time_per_call_us": 77806.85024999912,
+      "realtime_factor": 128.5233879519511
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 14.406170528225015,
+      "realtime_factor": 694.146996275498
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 88.2162348339044,
+      "realtime_factor": 113.35781921352952
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 12.505268901674693,
+      "realtime_factor": 799.6629323709153
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 7.023200433720067,
+      "realtime_factor": 1423.852287055287
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 14.169645946415788,
+      "realtime_factor": 705.7339356125198
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 83.67489498972702,
+      "realtime_factor": 119.51015894585497
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 22.200350455969797,
+      "realtime_factor": 450.4433396145305
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 87.00379434145589,
+      "realtime_factor": 114.93751595193548
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 88.18300762980513,
+      "realtime_factor": 113.40053224290439
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 88.54761117493837,
+      "realtime_factor": 112.93359433766747
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 28.48970220936664,
+      "realtime_factor": 702.0080397128386
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 174.96805828720596,
+      "realtime_factor": 114.30657798791177
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 24.338382720978657,
+      "realtime_factor": 821.7472881943321
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 14.198681678789793,
+      "realtime_factor": 1408.5814762560883
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 29.36788781759958,
+      "realtime_factor": 681.0159492646388
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 162.50875604217896,
+      "realtime_factor": 123.07029163898727
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 45.581386596271756,
+      "realtime_factor": 438.7755944580208
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 170.85111749182147,
+      "realtime_factor": 117.06098440332056
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 176.35587311026768,
+      "realtime_factor": 113.4070538580525
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 176.7990901493377,
+      "realtime_factor": 113.12275409961957
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 138.79817962791918,
+      "realtime_factor": 720.4705441243774
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 900.1675615216698,
+      "realtime_factor": 111.09042835420226
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 129.21784985486795,
+      "realtime_factor": 773.8868903353198
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 74.51794308410697,
+      "realtime_factor": 1341.9586727874644
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 145.94149010971336,
+      "realtime_factor": 685.2061050275953
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 828.6134946260404,
+      "realtime_factor": 120.68352814496555
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 224.19630193937223,
+      "realtime_factor": 446.03768721859774
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 820.2881369676618,
+      "realtime_factor": 121.90838254673224
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 841.8742167926041,
+      "realtime_factor": 118.78259008926868
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 853.4216413593754,
+      "realtime_factor": 117.17537399299447
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 722.1556799343887,
+      "realtime_factor": 692.371484283593
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4322.904294895125,
+      "realtime_factor": 115.66298161873375
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 592.8785803277492,
+      "realtime_factor": 843.3429990396937
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 359.4806314737298,
+      "realtime_factor": 1390.895520435123
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 709.7028095728319,
+      "realtime_factor": 704.5202488361974
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4211.894937469651,
+      "realtime_factor": 118.71141313424624
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 1108.8905024436713,
+      "realtime_factor": 450.9011474966607
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4219.519937549876,
+      "realtime_factor": 118.49689239537805
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4134.435222766797,
+      "realtime_factor": 120.93550220515876
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4133.758136731558,
+      "realtime_factor": 120.95531075152245
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 1379.05999853416,
+      "realtime_factor": 725.1316121582287
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8263.47250000481,
+      "realtime_factor": 121.01450086503198
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 1211.9608364358214,
+      "realtime_factor": 825.1091701451644
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 685.1829428597966,
+      "realtime_factor": 1459.4642356773056
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 1365.7176533357074,
+      "realtime_factor": 732.2157677009903
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8114.181644600649,
+      "realtime_factor": 123.2410172460733
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 2179.311074200996,
+      "realtime_factor": 458.8606059218194
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8234.554359432877,
+      "realtime_factor": 121.43948006785288
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8308.083179656478,
+      "realtime_factor": 120.36470728273906
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8653.733722610468,
+      "realtime_factor": 115.55705687906722
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 6991.581459004692,
+      "realtime_factor": 715.1457834422185
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 41942.59378141396,
+      "realtime_factor": 119.21055779377316
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 5876.889160106202,
+      "realtime_factor": 850.7902503830179
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 3470.9128408110246,
+      "realtime_factor": 1440.5432315124583
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 7002.320070313317,
+      "realtime_factor": 714.049050856408
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 42370.96742167523,
+      "realtime_factor": 118.00533016487623
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 11141.911625088596,
+      "realtime_factor": 448.75602753313365
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 41353.255843432635,
+      "realtime_factor": 120.90946403181593
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 41668.867171665624,
+      "realtime_factor": 119.99366288027973
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 41450.800765687745,
+      "realtime_factor": 120.62493142807783
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 14065.137855425291,
+      "realtime_factor": 710.9777453153606
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 86450.59243690412,
+      "realtime_factor": 115.67300718382573
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 11615.402175891631,
+      "realtime_factor": 860.9258507428626
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 7413.539064458519,
+      "realtime_factor": 1348.8834297699077
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 14782.84147259501,
+      "realtime_factor": 676.4599362401591
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 86286.65365631605,
+      "realtime_factor": 115.89277803993289
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 24058.94270304998,
+      "realtime_factor": 415.64586288874153
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 87155.4986265437,
+      "realtime_factor": 114.73745383351456
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 91243.67968706792,
+      "realtime_factor": 109.59663216451048
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 88065.64321912447,
+      "realtime_factor": 113.55166026685404
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 14.945970691793153,
+      "realtime_factor": 669.0766499021044
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 90.71573892160956,
+      "realtime_factor": 110.23445455965836
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 12.969257518868904,
+      "realtime_factor": 771.0541629272958
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 7.347857872042063,
+      "realtime_factor": 1360.9408584301962
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 14.888037197124948,
+      "realtime_factor": 671.6802132876935
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 87.32385128729092,
+      "realtime_factor": 114.51625017202369
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 24.863516166706567,
+      "realtime_factor": 402.1957285908932
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 88.62324395986221,
+      "realtime_factor": 112.83721463106266
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 90.83201974391386,
+      "realtime_factor": 110.09333523787512
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.01,
+      "samples": 480,
+      "time_per_call_us": 90.66964090065355,
+      "realtime_factor": 110.29049967184683
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 29.477434776215006,
+      "realtime_factor": 678.4850904373051
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 182.13284820767228,
+      "realtime_factor": 109.80995573733914
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 25.401767715371726,
+      "realtime_factor": 787.3467793305235
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 14.912801418243138,
+      "realtime_factor": 1341.1296401716706
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 29.42517949666712,
+      "realtime_factor": 679.6899914328586
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 170.46859728964137,
+      "realtime_factor": 117.32366147190274
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 48.328080505477544,
+      "realtime_factor": 413.83807903840056
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 178.4964193145555,
+      "realtime_factor": 112.04706557589247
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 178.2534589249707,
+      "realtime_factor": 112.1997863077556
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.02,
+      "samples": 960,
+      "time_per_call_us": 177.42053222757903,
+      "realtime_factor": 112.72652465243317
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 144.41300970258197,
+      "realtime_factor": 692.4583886586785
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 884.801808602731,
+      "realtime_factor": 113.01966047958116
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 127.14258068946549,
+      "realtime_factor": 786.5185641012051
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 73.06058123868198,
+      "realtime_factor": 1368.7271344490061
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 149.3823496119262,
+      "realtime_factor": 669.4231297056552
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 890.9981586988636,
+      "realtime_factor": 112.23367750392586
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 241.3776220082653,
+      "realtime_factor": 414.28861204281725
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 875.0395505323638,
+      "realtime_factor": 114.28054873538136
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 886.1241357394078,
+      "realtime_factor": 112.85100582048483
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.1,
+      "samples": 4800,
+      "time_per_call_us": 906.4723205547409,
+      "realtime_factor": 110.31776451684948
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 732.107828611106,
+      "realtime_factor": 682.9595046791924
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4440.527580044318,
+      "realtime_factor": 112.5992330836981
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 624.3420712870318,
+      "realtime_factor": 800.8430362049598
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 364.11169909023045,
+      "realtime_factor": 1373.2049842103402
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 722.3921511290143,
+      "realtime_factor": 692.1448401931812
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4082.8532715408983,
+      "realtime_factor": 122.46337714000101
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 1089.0591225631852,
+      "realtime_factor": 459.111897270748
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4040.4408378549306,
+      "realtime_factor": 123.7488729733387
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4222.4275742626105,
+      "realtime_factor": 118.41529338423719
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 0.5,
+      "samples": 24000,
+      "time_per_call_us": 4119.965086005095,
+      "realtime_factor": 121.36025174058517
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 1377.1897788146248,
+      "realtime_factor": 726.1163387813699
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8455.852867143676,
+      "realtime_factor": 118.26128194420589
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 1178.9446005820992,
+      "realtime_factor": 848.2162770890626
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 700.5837402402904,
+      "realtime_factor": 1427.3811145788427
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 1361.856873060674,
+      "realtime_factor": 734.291554260451
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8208.161292998284,
+      "realtime_factor": 121.829964629596
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 2201.3789453154686,
+      "realtime_factor": 454.2607269538934
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8031.878093731848,
+      "realtime_factor": 124.50388169865393
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8302.767734335248,
+      "realtime_factor": 120.44176496285716
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 48000,
+      "time_per_call_us": 8211.152175704228,
+      "realtime_factor": 121.7855885022902
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 6792.822753936889,
+      "realtime_factor": 736.0710239498255
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 42182.25781232832,
+      "realtime_factor": 118.533247372517
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 6000.980306652082,
+      "realtime_factor": 833.197201873418
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 3424.478353522886,
+      "realtime_factor": 1460.0763923230284
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 6831.208738304895,
+      "realtime_factor": 731.9348875936569
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 40210.83985981022,
+      "realtime_factor": 124.34458015380527
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 10943.115718816898,
+      "realtime_factor": 456.9082634667203
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 40484.36523453347,
+      "realtime_factor": 123.50446823197223
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 41510.67578118273,
+      "realtime_factor": 120.45094197831774
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 5.0,
+      "samples": 240000,
+      "time_per_call_us": 41340.90690604353,
+      "realtime_factor": 120.94558088344844
+    },
+    {
+      "class": "NoiseSuppressor",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 13587.18017195315,
+      "realtime_factor": 735.9878851567848
+    },
+    {
+      "class": "EchoCanceller",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 83298.117187951,
+      "realtime_factor": 120.05073268866745
+    },
+    {
+      "class": "GainController",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 11742.007488237505,
+      "realtime_factor": 851.643129168283
+    },
+    {
+      "class": "VoiceDetector",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 6983.490234375722,
+      "realtime_factor": 1431.948733997755
+    },
+    {
+      "class": "AP(ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 13960.199054679379,
+      "realtime_factor": 716.3221642350477
+    },
+    {
+      "class": "AP(aec)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 80452.43753167597,
+      "realtime_factor": 124.29704191451962
+    },
+    {
+      "class": "AP(agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 22051.85253910713,
+      "realtime_factor": 453.47664021722574
+    },
+    {
+      "class": "AP(aec+ns)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 82239.05331306014,
+      "realtime_factor": 121.59673047223575
+    },
+    {
+      "class": "AP(aec+ns+agc)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 83671.62503054715,
+      "realtime_factor": 119.51482950581111
+    },
+    {
+      "class": "AP(all)",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 10.0,
+      "samples": 480000,
+      "time_per_call_us": 86241.9465934181,
+      "realtime_factor": 115.9528558317953
+    },
+    {
+      "class": "AP(aec+ns+agc) stereo",
+      "sample_rate": 16000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 8781.979167963527,
+      "realtime_factor": 113.86954818202925
+    },
+    {
+      "class": "AP(aec+ns+agc) stereo",
+      "sample_rate": 16000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 32000,
+      "time_per_call_us": 8787.857101481222,
+      "realtime_factor": 113.7933842633202
+    },
+    {
+      "class": "AP(aec+ns+agc) stereo",
+      "sample_rate": 32000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 64000,
+      "time_per_call_us": 10818.942546961807,
+      "realtime_factor": 92.43047512816506
+    },
+    {
+      "class": "AP(aec+ns+agc) stereo",
+      "sample_rate": 32000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 64000,
+      "time_per_call_us": 10784.752609367843,
+      "realtime_factor": 92.72349920492204
+    },
+    {
+      "class": "AP(aec+ns+agc) stereo",
+      "sample_rate": 48000,
+      "dtype": "int16",
+      "duration_s": 1.0,
+      "samples": 96000,
+      "time_per_call_us": 12258.932617214668,
+      "realtime_factor": 81.57317045659791
+    },
+    {
+      "class": "AP(aec+ns+agc) stereo",
+      "sample_rate": 48000,
+      "dtype": "float32",
+      "duration_s": 1.0,
+      "samples": 96000,
+      "time_per_call_us": 12042.541824200725,
+      "realtime_factor": 83.03894764063823
+    }
+  ]
+}
