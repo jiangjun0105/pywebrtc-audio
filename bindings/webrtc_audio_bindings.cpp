@@ -791,6 +791,7 @@ class AudioProcessor {
     bool agc_enabled_;
     int ns_level_;
     int stream_delay_ms_ = 0;
+    webrtc::EchoCanceller3Config aec3_config_;
     std::unique_ptr<Agc2State> agc_;
     std::unique_ptr<webrtc::NoiseSuppressor> vad_;
     // Reused to bridge interleaved multichannel audio and WebRTC's planar API.
@@ -943,7 +944,8 @@ public:
                    int ns_level = 1,
                    float agc_gain_db = 0.0f,
                    float agc_max_gain_db = 50.0f,
-                   int stream_delay_ms = 0)
+                   int stream_delay_ms = 0,
+                   std::optional<int> num_filters = std::nullopt)
         : sample_rate_(sample_rate),
           processing_rate_(select_processing_rate(sample_rate)),
           num_channels_(num_channels),
@@ -961,6 +963,7 @@ public:
             throw std::invalid_argument("ns_level must be 0-3");
         if (stream_delay_ms < 0)
             throw std::invalid_argument("stream_delay_ms must be >= 0");
+        aec3_config_ = build_aec3_config(num_filters);
 
         frame_size_ = sample_rate / 100;
         processing_frame_size_ = processing_rate_ / 100;
@@ -974,8 +977,7 @@ public:
         near_buf_ = create_audio_buffer();
 
         if (aec_enabled_) {
-            webrtc::EchoCanceller3Config config;
-            webrtc::EchoCanceller3Factory factory(config);
+            webrtc::EchoCanceller3Factory factory(aec3_config_);
             aec_ = factory.Create(
                 processing_rate_, num_channels, num_channels);
             far_buf_ = create_audio_buffer();
@@ -1111,8 +1113,7 @@ public:
 
         if (aec_enabled_) {
             far_buf_ = create_audio_buffer();
-            webrtc::EchoCanceller3Config config;
-            webrtc::EchoCanceller3Factory factory(config);
+            webrtc::EchoCanceller3Factory factory(aec3_config_);
             aec_ = factory.Create(
                 processing_rate_, num_channels_, num_channels_);
         }
@@ -1212,7 +1213,8 @@ PYBIND11_MODULE(_webrtc_audio, m) {
                                &GainController::get_speech_probability);
 
     py::class_<AudioProcessor>(m, "AudioProcessor")
-        .def(py::init<int, int, bool, bool, bool, bool, int, float, float, int>(),
+        .def(py::init<int, int, bool, bool, bool, bool, int, float, float, int,
+                      std::optional<int>>(),
              py::arg("sample_rate") = 16000,
              py::arg("num_channels") = 1,
              py::arg("echo_cancellation") = false,
@@ -1222,7 +1224,8 @@ PYBIND11_MODULE(_webrtc_audio, m) {
              py::arg("ns_level") = 1,
              py::arg("agc_gain_db") = 0.0f,
              py::arg("agc_max_gain_db") = 50.0f,
-             py::arg("stream_delay_ms") = 0)
+             py::arg("stream_delay_ms") = 0,
+             py::arg("num_filters") = py::none())
         .def("process", &AudioProcessor::process,
              py::arg("near"), py::arg("far") = py::none())
         .def("reset", &AudioProcessor::reset)
