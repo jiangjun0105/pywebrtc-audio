@@ -87,6 +87,20 @@ void buffer_to_float(const webrtc::AudioBuffer* buf, int frame_size,
     }
 }
 
+// Build a validated AEC3 config, overriding delay.num_filters when provided.
+// A wider filter bank cancels longer echo paths than the default (5) can model.
+webrtc::EchoCanceller3Config build_aec3_config(std::optional<int> num_filters) {
+    webrtc::EchoCanceller3Config config;
+    if (num_filters.has_value()) {
+        if (*num_filters < 1 || *num_filters > 5000)
+            throw std::invalid_argument("num_filters must be between 1 and 5000");
+        config.delay.num_filters = static_cast<size_t>(*num_filters);
+    }
+    if (!webrtc::EchoCanceller3Config::Validate(&config))
+        throw std::invalid_argument("Invalid AEC3 configuration");
+    return config;
+}
+
 // AGC2 constants
 constexpr int kAgcAdjacentSpeechFramesThreshold = 12;
 
@@ -357,6 +371,7 @@ class EchoCanceller {
     std::unique_ptr<webrtc::AudioBuffer> near_buf_;
     std::unique_ptr<webrtc::AudioBuffer> far_buf_;
     std::unique_ptr<webrtc::HighPassFilter> hp_filter_;
+    webrtc::EchoCanceller3Config config_;
     int sample_rate_;
     int num_channels_;
     int frame_size_;      // samples per channel per 10ms frame
@@ -408,7 +423,8 @@ public:
     int stream_delay_ms_ = 0;
 
     EchoCanceller(int sample_rate = 16000, int num_channels = 1,
-                  int stream_delay_ms = 0)
+                  int stream_delay_ms = 0,
+                  std::optional<int> num_filters = std::nullopt)
         : sample_rate_(sample_rate), num_channels_(num_channels),
           stream_delay_ms_(stream_delay_ms) {
 
@@ -423,8 +439,8 @@ public:
         frame_size_ = sample_rate / 100;
         frame_stride_ = frame_size_ * num_channels;
 
-        webrtc::EchoCanceller3Config config;
-        webrtc::EchoCanceller3Factory factory(config);
+        config_ = build_aec3_config(num_filters);
+        webrtc::EchoCanceller3Factory factory(config_);
         aec_ = factory.Create(sample_rate, num_channels, num_channels);
 
         hp_filter_ = std::make_unique<webrtc::HighPassFilter>(
@@ -512,8 +528,7 @@ public:
     }
 
     void reset() {
-        webrtc::EchoCanceller3Config config;
-        webrtc::EchoCanceller3Factory factory(config);
+        webrtc::EchoCanceller3Factory factory(config_);
         aec_ = factory.Create(sample_rate_, num_channels_, num_channels_);
         hp_filter_ = std::make_unique<webrtc::HighPassFilter>(
             sample_rate_, num_channels_);
@@ -1146,10 +1161,11 @@ PYBIND11_MODULE(_webrtc_audio, m) {
     m.doc() = "WebRTC audio processing: echo cancellation, noise suppression, and combined pipeline";
 
     py::class_<EchoCanceller>(m, "EchoCanceller")
-        .def(py::init<int, int, int>(),
+        .def(py::init<int, int, int, std::optional<int>>(),
              py::arg("sample_rate") = 16000,
              py::arg("num_channels") = 1,
-             py::arg("stream_delay_ms") = 0)
+             py::arg("stream_delay_ms") = 0,
+             py::arg("num_filters") = py::none())
         .def("process", &EchoCanceller::process,
              py::arg("near"), py::arg("far"))
         .def("reset", &EchoCanceller::reset)
